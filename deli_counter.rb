@@ -2,13 +2,12 @@
 katz_deli = []
 
 def line(katz_deli)
-  line = []
+  line = [The line is currently:]
   if katz_deli.size == 0
     return "The line is currently empty."
   else
     katz_deli.each_with_index { |name, index|
-     "The line is currently: #{katz_deli[index]}"
-
+     list.push("#{index + 1}. #{}{name}")
    }
   end
   return list
