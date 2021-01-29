@@ -10,5 +10,5 @@ def line(katz_deli)
     line_list.push("#{index + 1}. #{name} ")
   end
    line_list
-end
+  end
 end
