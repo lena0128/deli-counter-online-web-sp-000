@@ -7,7 +7,7 @@ def line(katz_deli)
   else katz_deli.size > 0
     line_list = "The line is currently: "
     katz_deli.each_with_index do |name, index|
-    line_list.push("#{index + 1}. #{name} ")
+    line_list = line_list + "#{index + 1}. #{name} "
   end
    line_list
   end
