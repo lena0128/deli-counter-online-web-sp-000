@@ -2,10 +2,9 @@
 katz_deli = []
 
 def line(katz_deli)
-line = "The line is currently: "
-katz_deli.each_with_index { |name, index|
-    line.push("#{index + 1}. #{name}")
-    }
+line_list = "The line is currently: "
+katz_deli.each_with_index do |name, index|
+    line_list.push("#{index + 1}. #{name} ")
   end
-  return line
+  return line_list
 end
