@@ -6,9 +6,8 @@ def line(katz_deli)
   katz_deli.each_with_index { |name, index|
     list.push("#{index + 1}. #{name}")
     }
-    end
+  end
   return list
-end
   if katz_deli.size == 0
   return "The line is currently empty."
 end
